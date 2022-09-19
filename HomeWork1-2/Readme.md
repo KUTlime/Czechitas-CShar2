@@ -6,7 +6,7 @@ Po stisknutí enter zkontroluje, zda je jídlo ze seznamu a pokud ano, odpoví v
 Po zadání hotovo se vypíše, co vše je pro něj připraveno k vyzvednutí.
 Např.
 
-Vitejte u Krupave Czechitky!
+Vitejte u Krupave Czechitky!  
 V nabidce mame: burger, hranolky, stripsy, nachos, tatarku, kecup  
 Co si date?  
 nachos  
