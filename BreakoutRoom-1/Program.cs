@@ -14,7 +14,8 @@ Console.WriteLine(fixedText);
 
 //Ukol - rozsifrujte tuto zpravu - text byl zasifrovan tak, ze jsme kazde pismeno posunuli o jedno doprava: 'a' -> 'b'.
 string sifra = "Wzcpsob!qsbdf!.!hsbuvmvkj!b!ktfn!ob!Ufcf!qztoz";
-Console.WriteLine(new string(sifra.Select(c => ShiftChar(c, -1)).ToArray()));
+var decrypted = new string(sifra.Select(c => ShiftChar(c, -1)).ToArray());
+Console.WriteLine(decrypted);
 
 Console.ReadLine();
 
